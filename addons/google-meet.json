@@ -1,0 +1,77 @@
+{
+  "id": "google-meet",
+  "name": "Google Meet",
+  "version": 1,
+  "icon": "camera",
+  "web": true,
+  "description": "Mute, camera, raise hand, chat, people and captions in Google Meet, in your browser.",
+  "apps": {
+    "mac": [],
+    "win": []
+  },
+  "shortcuts": [
+    {
+      "id": "mute",
+      "label": "Mute / unmute",
+      "icon": "mic",
+      "section": "Meeting",
+      "mac": "Cmd+D",
+      "win": "Ctrl+D"
+    },
+    {
+      "id": "camera",
+      "label": "Camera on / off",
+      "icon": "camera",
+      "section": "Meeting",
+      "mac": "Cmd+E",
+      "win": "Ctrl+E"
+    },
+    {
+      "id": "hand",
+      "label": "Raise / lower hand",
+      "icon": "hand",
+      "section": "Meeting",
+      "mac": "Ctrl+Cmd+H",
+      "win": "Ctrl+Alt+H"
+    },
+    {
+      "id": "chat",
+      "label": "Chat",
+      "icon": "chat",
+      "section": "Panels",
+      "mac": "Ctrl+Cmd+C",
+      "win": "Ctrl+Alt+C"
+    },
+    {
+      "id": "people",
+      "label": "People",
+      "icon": "people",
+      "section": "Panels",
+      "mac": "Ctrl+Cmd+P",
+      "win": "Ctrl+Alt+P"
+    },
+    {
+      "id": "captions",
+      "label": "Captions on / off",
+      "icon": "captions",
+      "section": "Panels",
+      "mac": "C",
+      "win": "C"
+    }
+  ],
+  "ring": [
+    {
+      "group": "Meet",
+      "icon": "camera",
+      "items": [
+        "mute",
+        "camera",
+        "hand",
+        "chat",
+        "people",
+        "captions"
+      ]
+    },
+    null
+  ]
+}
