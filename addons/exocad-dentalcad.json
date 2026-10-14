@@ -1,8 +1,9 @@
 {
   "id": "exocad-dentalcad",
   "name": "exocad DentalCAD",
-  "version": 1,
+  "version": 2,
   "icon": "tooth",
+  "iconUrl": "https://exocad.com/typo3conf/templates/_shared/gfx/favicon_192x192.png",
   "description": "Wizard steps, undo, show and hide groups, margin tools, measuring and the ruler in exocad DentalCAD.",
   "apps": {
     "mac": [],
