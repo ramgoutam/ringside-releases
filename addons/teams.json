@@ -1,8 +1,9 @@
 {
   "id": "teams",
   "name": "Microsoft Teams",
-  "version": 1,
+  "version": 2,
   "icon": "people",
+  "iconUrl": "https://res-1.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/svg/teams_48x1.svg",
   "description": "Mute, camera, screen sharing, raise hand and leave in meetings, and getting around Teams.",
   "apps": {
     "mac": [
