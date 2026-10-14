@@ -1,8 +1,9 @@
 {
   "id": "google-meet",
   "name": "Google Meet",
-  "version": 1,
+  "version": 2,
   "icon": "camera",
+  "iconUrl": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
   "web": true,
   "description": "Mute, camera, raise hand, chat, people and captions in Google Meet, in your browser.",
   "apps": {
