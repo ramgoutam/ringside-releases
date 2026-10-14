@@ -1,8 +1,9 @@
 {
   "id": "powerpoint",
   "name": "Microsoft PowerPoint",
-  "version": 1,
+  "version": 2,
   "icon": "slides",
+  "iconUrl": "https://res-1.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/svg/powerpoint_48x1.svg",
   "description": "New and duplicate slides, grouping and arranging, and presenting with the ring in PowerPoint.",
   "apps": {
     "mac": [
