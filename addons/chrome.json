@@ -2,6 +2,7 @@
   "id": "chrome",
   "name": "Google Chrome",
   "version": 1,
+  "icon": "globe",
   "description": "Tabs, windows, history, bookmarks, zoom and developer tools in Chrome.",
   "apps": { "mac": ["com.google.Chrome"], "win": ["chrome.exe"] },
   "shortcuts": [
