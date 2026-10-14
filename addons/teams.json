@@ -1,0 +1,207 @@
+{
+  "id": "teams",
+  "name": "Microsoft Teams",
+  "version": 1,
+  "icon": "people",
+  "description": "Mute, camera, screen sharing, raise hand and leave in meetings, and getting around Teams.",
+  "apps": {
+    "mac": [
+      "com.microsoft.teams2",
+      "com.microsoft.teams"
+    ],
+    "win": [
+      "ms-teams.exe",
+      "teams.exe"
+    ]
+  },
+  "shortcuts": [
+    {
+      "id": "mute",
+      "label": "Mute / unmute",
+      "icon": "mic",
+      "section": "Meetings",
+      "mac": "Cmd+Shift+M",
+      "win": "Ctrl+Shift+M"
+    },
+    {
+      "id": "video",
+      "label": "Camera on / off",
+      "icon": "camera",
+      "section": "Meetings",
+      "mac": "Cmd+Shift+O",
+      "win": "Ctrl+Shift+O"
+    },
+    {
+      "id": "share",
+      "label": "Share screen",
+      "icon": "share",
+      "section": "Meetings",
+      "mac": "Cmd+Shift+E",
+      "win": "Ctrl+Shift+E"
+    },
+    {
+      "id": "hand",
+      "label": "Raise / lower hand",
+      "icon": "hand",
+      "section": "Meetings",
+      "mac": "Cmd+Shift+K",
+      "win": "Ctrl+Shift+K"
+    },
+    {
+      "id": "blur",
+      "label": "Blur background",
+      "icon": "person",
+      "section": "Meetings",
+      "mac": "Cmd+Shift+P",
+      "win": "Ctrl+Shift+P"
+    },
+    {
+      "id": "leave",
+      "label": "Leave meeting",
+      "icon": "leave",
+      "section": "Meetings",
+      "mac": "Cmd+Shift+H",
+      "win": "Ctrl+Shift+H"
+    },
+    {
+      "id": "full-screen",
+      "label": "Full screen",
+      "icon": "maximize",
+      "section": "Meetings",
+      "mac": "Cmd+Shift+F",
+      "win": "Ctrl+Shift+F"
+    },
+    {
+      "id": "accept-video",
+      "label": "Answer with video",
+      "icon": "camera",
+      "section": "Calls",
+      "mac": "Cmd+Shift+A",
+      "win": "Ctrl+Shift+A"
+    },
+    {
+      "id": "accept-audio",
+      "label": "Answer with audio",
+      "icon": "mic",
+      "section": "Calls",
+      "mac": "Cmd+Shift+S",
+      "win": "Ctrl+Shift+S"
+    },
+    {
+      "id": "decline",
+      "label": "Decline call",
+      "icon": "close",
+      "section": "Calls",
+      "mac": "Cmd+Shift+D",
+      "win": "Ctrl+Shift+D"
+    },
+    {
+      "id": "activity",
+      "label": "Activity",
+      "icon": "bolt",
+      "section": "Go to",
+      "mac": "Cmd+1",
+      "win": "Ctrl+1"
+    },
+    {
+      "id": "chat",
+      "label": "Chat",
+      "icon": "chat",
+      "section": "Go to",
+      "mac": "Cmd+2",
+      "win": "Ctrl+2"
+    },
+    {
+      "id": "teams",
+      "label": "Teams",
+      "icon": "people",
+      "section": "Go to",
+      "mac": "Cmd+3",
+      "win": "Ctrl+3"
+    },
+    {
+      "id": "calendar",
+      "label": "Calendar",
+      "icon": "history",
+      "section": "Go to",
+      "mac": "Cmd+4",
+      "win": "Ctrl+4"
+    },
+    {
+      "id": "calls",
+      "label": "Calls",
+      "icon": "mic",
+      "section": "Go to",
+      "mac": "Cmd+5",
+      "win": "Ctrl+5"
+    },
+    {
+      "id": "go-to",
+      "label": "Go to a chat or channel",
+      "icon": "search",
+      "section": "Go to",
+      "mac": "Cmd+G",
+      "win": "Ctrl+G"
+    },
+    {
+      "id": "new-chat",
+      "label": "New chat",
+      "icon": "plus",
+      "section": "Messages",
+      "mac": "Cmd+N",
+      "win": "Ctrl+N"
+    },
+    {
+      "id": "search",
+      "label": "Search",
+      "icon": "search",
+      "section": "Messages",
+      "mac": "Cmd+E",
+      "win": "Ctrl+E"
+    },
+    {
+      "id": "compose",
+      "label": "Expand the message box",
+      "icon": "text",
+      "section": "Messages",
+      "mac": "Cmd+Shift+X",
+      "win": "Ctrl+Shift+X"
+    },
+    {
+      "id": "settings",
+      "label": "Settings",
+      "icon": "sliders",
+      "section": "Messages",
+      "mac": "Cmd+,",
+      "win": "Ctrl+,"
+    }
+  ],
+  "ring": [
+    "mute",
+    "video",
+    "share",
+    {
+      "group": "Go to",
+      "icon": "apps",
+      "items": [
+        "activity",
+        "chat",
+        "teams",
+        "calendar",
+        "calls"
+      ]
+    },
+    "leave",
+    {
+      "group": "Calls",
+      "icon": "mic",
+      "items": [
+        "accept-video",
+        "accept-audio",
+        "decline"
+      ]
+    },
+    "blur",
+    "hand"
+  ]
+}
