@@ -1,8 +1,9 @@
 {
   "id": "chrome",
   "name": "Google Chrome",
-  "version": 1,
+  "version": 2,
   "icon": "globe",
+  "iconUrl": "https://www.google.com/chrome/static/images/chrome-logo-m100.svg",
   "description": "Tabs, windows, history, bookmarks, zoom and developer tools in Chrome.",
   "apps": { "mac": ["com.google.Chrome"], "win": ["chrome.exe"] },
   "shortcuts": [
