@@ -1,0 +1,155 @@
+{
+  "id": "spotify",
+  "name": "Spotify",
+  "version": 1,
+  "icon": "playpause",
+  "description": "Play, skip, like, shuffle, repeat, volume and search in the Spotify app.",
+  "apps": {
+    "mac": [
+      "com.spotify.client"
+    ],
+    "win": [
+      "spotify.exe"
+    ]
+  },
+  "shortcuts": [
+    {
+      "id": "play",
+      "label": "Play / pause",
+      "icon": "playpause",
+      "section": "Playback",
+      "mac": "Space",
+      "win": "Space"
+    },
+    {
+      "id": "next",
+      "label": "Next song",
+      "icon": "next",
+      "section": "Playback",
+      "mac": "Cmd+Right",
+      "win": "Ctrl+Right"
+    },
+    {
+      "id": "previous",
+      "label": "Previous song",
+      "icon": "previous",
+      "section": "Playback",
+      "mac": "Cmd+Left",
+      "win": "Ctrl+Left"
+    },
+    {
+      "id": "shuffle",
+      "label": "Shuffle",
+      "icon": "shuffle",
+      "section": "Playback",
+      "mac": "Cmd+S",
+      "win": "Ctrl+S"
+    },
+    {
+      "id": "repeat",
+      "label": "Repeat",
+      "icon": "repeat",
+      "section": "Playback",
+      "mac": "Cmd+R",
+      "win": "Ctrl+R"
+    },
+    {
+      "id": "like",
+      "label": "Like this song",
+      "icon": "heart",
+      "section": "Playback",
+      "mac": "Alt+Shift+B",
+      "win": "Alt+Shift+B"
+    },
+    {
+      "id": "louder",
+      "label": "Volume up",
+      "icon": "volume",
+      "section": "Volume",
+      "mac": "Cmd+Up",
+      "win": "Ctrl+Up"
+    },
+    {
+      "id": "quieter",
+      "label": "Volume down",
+      "icon": "volumeDown",
+      "section": "Volume",
+      "mac": "Cmd+Down",
+      "win": "Ctrl+Down"
+    },
+    {
+      "id": "search",
+      "label": "Search",
+      "icon": "search",
+      "section": "Go to",
+      "mac": "Cmd+K",
+      "win": "Ctrl+K"
+    },
+    {
+      "id": "home",
+      "label": "Home",
+      "icon": "home",
+      "section": "Go to",
+      "mac": "Alt+Shift+H",
+      "win": "Alt+Shift+H"
+    },
+    {
+      "id": "library",
+      "label": "Your Library",
+      "icon": "stack",
+      "section": "Go to",
+      "mac": "Alt+Shift+0",
+      "win": "Alt+Shift+0"
+    },
+    {
+      "id": "queue",
+      "label": "Queue",
+      "icon": "list",
+      "section": "Go to",
+      "mac": "Alt+Shift+Q",
+      "win": "Alt+Shift+Q"
+    },
+    {
+      "id": "lyrics",
+      "label": "Lyrics",
+      "icon": "text",
+      "section": "Go to",
+      "mac": "Alt+Shift+J",
+      "win": "Alt+Shift+J"
+    },
+    {
+      "id": "back",
+      "label": "Back",
+      "icon": "back",
+      "section": "Go to",
+      "mac": "Cmd+[",
+      "win": "Alt+Left"
+    },
+    {
+      "id": "forward",
+      "label": "Forward",
+      "icon": "forward",
+      "section": "Go to",
+      "mac": "Cmd+]",
+      "win": "Alt+Right"
+    },
+    {
+      "id": "new-playlist",
+      "label": "New playlist",
+      "icon": "plus",
+      "section": "Go to",
+      "mac": "Cmd+N",
+      "win": "Ctrl+N"
+    }
+  ],
+  "ring": [
+    "play",
+    "next",
+    "louder",
+    "shuffle",
+    "like",
+    "repeat",
+    "quieter",
+    "previous"
+  ]
+}
