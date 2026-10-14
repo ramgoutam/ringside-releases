@@ -1,8 +1,9 @@
 {
   "id": "siemens-nx",
   "name": "Siemens NX",
-  "version": 1,
+  "version": 2,
   "icon": "cube",
+  "iconUrl": "https://www.siemens.com/favicon.ico",
   "description": "Views, show and hide, applications, sections, expressions and files in Siemens NX.",
   "apps": {
     "mac": [],
