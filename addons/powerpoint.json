@@ -1,0 +1,231 @@
+{
+  "id": "powerpoint",
+  "name": "Microsoft PowerPoint",
+  "version": 1,
+  "icon": "slides",
+  "description": "New and duplicate slides, grouping and arranging, and presenting with the ring in PowerPoint.",
+  "apps": {
+    "mac": [
+      "com.microsoft.Powerpoint"
+    ],
+    "win": [
+      "powerpnt.exe"
+    ]
+  },
+  "shortcuts": [
+    {
+      "id": "new-slide",
+      "label": "New slide",
+      "icon": "plus",
+      "section": "Slides",
+      "mac": "Cmd+Shift+N",
+      "win": "Ctrl+M"
+    },
+    {
+      "id": "duplicate",
+      "label": "Duplicate slide",
+      "icon": "copy",
+      "section": "Slides",
+      "mac": "Cmd+Shift+D",
+      "win": "Ctrl+D"
+    },
+    {
+      "id": "start",
+      "label": "Present from the start",
+      "icon": "slides",
+      "section": "Present",
+      "mac": "Cmd+Shift+Return",
+      "win": "F5"
+    },
+    {
+      "id": "start-here",
+      "label": "Present from this slide",
+      "icon": "slides",
+      "section": "Present",
+      "mac": "Cmd+Return",
+      "win": "Shift+F5"
+    },
+    {
+      "id": "next",
+      "label": "Next slide",
+      "icon": "forward",
+      "section": "Present",
+      "mac": "Right",
+      "win": "Right"
+    },
+    {
+      "id": "previous",
+      "label": "Previous slide",
+      "icon": "back",
+      "section": "Present",
+      "mac": "Left",
+      "win": "Left"
+    },
+    {
+      "id": "black",
+      "label": "Black screen",
+      "icon": "pause",
+      "section": "Present",
+      "mac": "B",
+      "win": "B"
+    },
+    {
+      "id": "white",
+      "label": "White screen",
+      "icon": "sun",
+      "section": "Present",
+      "mac": "W",
+      "win": "W"
+    },
+    {
+      "id": "laser",
+      "label": "Laser pointer",
+      "icon": "pen",
+      "section": "Present",
+      "mac": "Cmd+L",
+      "win": "Ctrl+L"
+    },
+    {
+      "id": "end",
+      "label": "End show",
+      "icon": "close",
+      "section": "Present",
+      "mac": "Escape",
+      "win": "Escape"
+    },
+    {
+      "id": "group",
+      "label": "Group",
+      "icon": "stack",
+      "section": "Arrange",
+      "mac": "Alt+Cmd+G",
+      "win": "Ctrl+G"
+    },
+    {
+      "id": "ungroup",
+      "label": "Ungroup",
+      "icon": "apps",
+      "section": "Arrange",
+      "mac": "Alt+Cmd+Shift+G",
+      "win": "Ctrl+Shift+G"
+    },
+    {
+      "id": "forward",
+      "label": "Bring forward",
+      "icon": "arrowRight",
+      "section": "Arrange",
+      "mac": "Cmd+Shift+F",
+      "win": "Ctrl+]"
+    },
+    {
+      "id": "backward",
+      "label": "Send backward",
+      "icon": "arrowLeft",
+      "section": "Arrange",
+      "mac": "Cmd+Shift+B",
+      "win": "Ctrl+["
+    },
+    {
+      "id": "bold",
+      "label": "Bold",
+      "icon": "bold",
+      "section": "Text",
+      "mac": "Cmd+B",
+      "win": "Ctrl+B"
+    },
+    {
+      "id": "italic",
+      "label": "Italic",
+      "icon": "italic",
+      "section": "Text",
+      "mac": "Cmd+I",
+      "win": "Ctrl+I"
+    },
+    {
+      "id": "underline",
+      "label": "Underline",
+      "icon": "underline",
+      "section": "Text",
+      "mac": "Cmd+U",
+      "win": "Ctrl+U"
+    },
+    {
+      "id": "bigger",
+      "label": "Bigger text",
+      "icon": "zoomIn",
+      "section": "Text",
+      "mac": "Cmd+Shift+.",
+      "win": "Ctrl+Shift+."
+    },
+    {
+      "id": "smaller",
+      "label": "Smaller text",
+      "icon": "zoomOut",
+      "section": "Text",
+      "mac": "Cmd+Shift+,",
+      "win": "Ctrl+Shift+,"
+    },
+    {
+      "id": "center",
+      "label": "Center text",
+      "icon": "alignCenter",
+      "section": "Text",
+      "mac": "Cmd+E",
+      "win": "Ctrl+E"
+    },
+    {
+      "id": "copy-format",
+      "label": "Copy formatting",
+      "icon": "brush",
+      "section": "Text",
+      "mac": "Cmd+Shift+C",
+      "win": "Ctrl+Shift+C"
+    },
+    {
+      "id": "paste-format",
+      "label": "Paste formatting",
+      "icon": "brush",
+      "section": "Text",
+      "mac": "Cmd+Shift+V",
+      "win": "Ctrl+Shift+V"
+    },
+    {
+      "id": "link",
+      "label": "Insert link",
+      "icon": "link",
+      "section": "Text",
+      "mac": "Cmd+K",
+      "win": "Ctrl+K"
+    }
+  ],
+  "ring": [
+    "new-slide",
+    "duplicate",
+    "start",
+    {
+      "group": "Presenting",
+      "icon": "slides",
+      "items": [
+        "next",
+        "previous",
+        "black",
+        "white",
+        "laser",
+        "end"
+      ]
+    },
+    "start-here",
+    {
+      "group": "Arrange",
+      "icon": "stack",
+      "items": [
+        "group",
+        "ungroup",
+        "forward",
+        "backward"
+      ]
+    },
+    "copy-format",
+    "paste-format"
+  ]
+}
