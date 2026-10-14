@@ -1,8 +1,9 @@
 {
   "id": "excel",
   "name": "Microsoft Excel",
-  "version": 1,
+  "version": 2,
   "icon": "table",
+  "iconUrl": "https://res-1.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/svg/excel_48x1.svg",
   "description": "Fill, AutoSum, rows and columns, number formats, filters and tables in Excel.",
   "apps": {
     "mac": [
