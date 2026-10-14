@@ -1,8 +1,9 @@
 {
   "id": "exocad-dentaldb",
   "name": "exocad DentalDB",
-  "version": 1,
+  "version": 2,
   "icon": "tooth",
+  "iconUrl": "https://exocad.com/typo3conf/templates/_shared/gfx/favicon_192x192.png",
   "description": "New, open, save and duplicate projects in exocad DentalDB.",
   "apps": {
     "mac": [],
