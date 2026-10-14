@@ -563,6 +563,235 @@
       ]
     },
     {
+      "id": "exocad-dentalcad",
+      "name": "exocad DentalCAD",
+      "version": 1,
+      "icon": "tooth",
+      "description": "Wizard steps, undo, show and hide groups, margin tools, measuring and the ruler in exocad DentalCAD.",
+      "apps": {
+        "mac": [],
+        "win": [
+          "dentalcadapp.exe",
+          "dentalcad.exe"
+        ]
+      },
+      "shortcuts": [
+        {
+          "id": "next",
+          "label": "Next step",
+          "icon": "arrowRight",
+          "section": "Design",
+          "win": "Space"
+        },
+        {
+          "id": "undo",
+          "label": "Undo",
+          "icon": "undo",
+          "section": "Design",
+          "win": "Ctrl+Z"
+        },
+        {
+          "id": "redo",
+          "label": "Redo",
+          "icon": "redo",
+          "section": "Design",
+          "win": "Ctrl+Y"
+        },
+        {
+          "id": "exit-tool",
+          "label": "Leave the tool",
+          "icon": "close",
+          "section": "Design",
+          "win": "Escape"
+        },
+        {
+          "id": "equator",
+          "label": "Hold eQuator",
+          "icon": "cube",
+          "section": "Design",
+          "win": "Ctrl+U"
+        },
+        {
+          "id": "antagonist",
+          "label": "Antagonist",
+          "icon": "eye",
+          "section": "Show & hide",
+          "win": "A"
+        },
+        {
+          "id": "jaw",
+          "label": "Jaw scans",
+          "icon": "eye",
+          "section": "Show & hide",
+          "win": "S"
+        },
+        {
+          "id": "waxup",
+          "label": "Waxup",
+          "icon": "eye",
+          "section": "Show & hide",
+          "win": "W"
+        },
+        {
+          "id": "preop",
+          "label": "Pre-op",
+          "icon": "eye",
+          "section": "Show & hide",
+          "win": "P"
+        },
+        {
+          "id": "connectors",
+          "label": "Connectors",
+          "icon": "eye",
+          "section": "Show & hide",
+          "win": "C"
+        },
+        {
+          "id": "other",
+          "label": "Other objects",
+          "icon": "eye",
+          "section": "Show & hide",
+          "win": "O"
+        },
+        {
+          "id": "detect",
+          "label": "Detect margin",
+          "icon": "tooth",
+          "section": "Margin",
+          "win": "1"
+        },
+        {
+          "id": "edit",
+          "label": "Draw: edit",
+          "icon": "pen",
+          "section": "Margin",
+          "win": "2"
+        },
+        {
+          "id": "magnetic",
+          "label": "Draw: magnetic",
+          "icon": "pen",
+          "section": "Margin",
+          "win": "3"
+        },
+        {
+          "id": "free",
+          "label": "Draw: free",
+          "icon": "pen",
+          "section": "Margin",
+          "win": "4"
+        },
+        {
+          "id": "measure",
+          "label": "Measure",
+          "icon": "ruler",
+          "section": "View",
+          "win": "Ctrl+R"
+        },
+        {
+          "id": "ruler",
+          "label": "Ruler and grid",
+          "icon": "ruler",
+          "section": "View",
+          "win": "Ctrl+Shift+R"
+        },
+        {
+          "id": "center",
+          "label": "Rotate around the pointer",
+          "icon": "reload",
+          "section": "View",
+          "win": "Home"
+        },
+        {
+          "id": "remote",
+          "label": "Optimize for remote view",
+          "icon": "display",
+          "section": "View",
+          "win": "Ctrl+Shift+F3"
+        }
+      ],
+      "ring": [
+        "next",
+        "redo",
+        {
+          "group": "Show & hide",
+          "icon": "eye",
+          "items": [
+            "antagonist",
+            "jaw",
+            "waxup",
+            "preop",
+            "connectors",
+            "other"
+          ]
+        },
+        "measure",
+        "exit-tool",
+        {
+          "group": "Margin",
+          "icon": "tooth",
+          "items": [
+            "detect",
+            "edit",
+            "magnetic",
+            "free"
+          ]
+        },
+        "ruler",
+        "undo"
+      ]
+    },
+    {
+      "id": "exocad-dentaldb",
+      "name": "exocad DentalDB",
+      "version": 1,
+      "icon": "tooth",
+      "description": "New, open, save and duplicate projects in exocad DentalDB.",
+      "apps": {
+        "mac": [],
+        "win": [
+          "dentaldb.exe",
+          "dentaldbapp.exe"
+        ]
+      },
+      "shortcuts": [
+        {
+          "id": "new",
+          "label": "New project",
+          "icon": "plus",
+          "section": "Projects",
+          "win": "Ctrl+N"
+        },
+        {
+          "id": "open",
+          "label": "Load a project",
+          "icon": "folder",
+          "section": "Projects",
+          "win": "Ctrl+L"
+        },
+        {
+          "id": "save",
+          "label": "Save",
+          "icon": "check",
+          "section": "Projects",
+          "win": "Ctrl+S"
+        },
+        {
+          "id": "duplicate",
+          "label": "Duplicate project",
+          "icon": "copy",
+          "section": "Projects",
+          "win": "Ctrl+D"
+        }
+      ],
+      "ring": [
+        "new",
+        "open",
+        "save",
+        "duplicate"
+      ]
+    },
+    {
       "id": "google-meet",
       "name": "Google Meet",
       "version": 1,
@@ -868,6 +1097,348 @@
         },
         "copy-format",
         "paste-format"
+      ]
+    },
+    {
+      "id": "siemens-nx",
+      "name": "Siemens NX",
+      "version": 1,
+      "icon": "cube",
+      "description": "Views, show and hide, applications, sections, expressions and files in Siemens NX.",
+      "apps": {
+        "mac": [],
+        "win": [
+          "ugraf.exe"
+        ]
+      },
+      "shortcuts": [
+        {
+          "id": "fit",
+          "label": "Fit",
+          "icon": "maximize",
+          "section": "View",
+          "win": "Ctrl+F"
+        },
+        {
+          "id": "trimetric",
+          "label": "Trimetric",
+          "icon": "cube",
+          "section": "View",
+          "win": "Home"
+        },
+        {
+          "id": "isometric",
+          "label": "Isometric",
+          "icon": "cube",
+          "section": "View",
+          "win": "End"
+        },
+        {
+          "id": "front",
+          "label": "Front",
+          "icon": "cube",
+          "section": "View",
+          "win": "Ctrl+Alt+F"
+        },
+        {
+          "id": "top",
+          "label": "Top",
+          "icon": "cube",
+          "section": "View",
+          "win": "Ctrl+Alt+T"
+        },
+        {
+          "id": "right",
+          "label": "Right",
+          "icon": "cube",
+          "section": "View",
+          "win": "Ctrl+Alt+R"
+        },
+        {
+          "id": "left",
+          "label": "Left",
+          "icon": "cube",
+          "section": "View",
+          "win": "Ctrl+Alt+L"
+        },
+        {
+          "id": "snap",
+          "label": "Snap view",
+          "icon": "cube",
+          "section": "View",
+          "win": "F8"
+        },
+        {
+          "id": "zoom",
+          "label": "Zoom",
+          "icon": "zoomIn",
+          "section": "View",
+          "win": "Ctrl+Shift+Z"
+        },
+        {
+          "id": "rotate",
+          "label": "Rotate",
+          "icon": "reload",
+          "section": "View",
+          "win": "Ctrl+R"
+        },
+        {
+          "id": "section",
+          "label": "Edit section",
+          "icon": "split",
+          "section": "View",
+          "win": "Ctrl+H"
+        },
+        {
+          "id": "reset",
+          "label": "Reset orientation",
+          "icon": "reopen",
+          "section": "View",
+          "win": "Ctrl+F8"
+        },
+        {
+          "id": "full-screen",
+          "label": "Full screen",
+          "icon": "maximize",
+          "section": "View",
+          "win": "Alt+Return"
+        },
+        {
+          "id": "hide",
+          "label": "Hide",
+          "icon": "eye",
+          "section": "Show & hide",
+          "win": "Ctrl+B"
+        },
+        {
+          "id": "show",
+          "label": "Show",
+          "icon": "eye",
+          "section": "Show & hide",
+          "win": "Ctrl+Shift+K"
+        },
+        {
+          "id": "show-all",
+          "label": "Show all",
+          "icon": "eye",
+          "section": "Show & hide",
+          "win": "Ctrl+Shift+U"
+        },
+        {
+          "id": "invert",
+          "label": "Invert shown and hidden",
+          "icon": "contrast",
+          "section": "Show & hide",
+          "win": "Ctrl+Shift+B"
+        },
+        {
+          "id": "show-or-hide",
+          "label": "Show and hide",
+          "icon": "eye",
+          "section": "Show & hide",
+          "win": "Ctrl+W"
+        },
+        {
+          "id": "immediate-hide",
+          "label": "Immediate hide",
+          "icon": "eye",
+          "section": "Show & hide",
+          "win": "Ctrl+Shift+I"
+        },
+        {
+          "id": "modeling",
+          "label": "Modeling",
+          "icon": "cube",
+          "section": "Applications",
+          "win": "Ctrl+M"
+        },
+        {
+          "id": "drafting",
+          "label": "Drafting",
+          "icon": "pen",
+          "section": "Applications",
+          "win": "Ctrl+Shift+D"
+        },
+        {
+          "id": "manufacturing",
+          "label": "Manufacturing",
+          "icon": "sliders",
+          "section": "Applications",
+          "win": "Ctrl+Alt+M"
+        },
+        {
+          "id": "sheet-metal",
+          "label": "Sheet metal",
+          "icon": "stack",
+          "section": "Applications",
+          "win": "Ctrl+Shift+M"
+        },
+        {
+          "id": "shape-studio",
+          "label": "Shape studio",
+          "icon": "sparkles",
+          "section": "Applications",
+          "win": "Ctrl+Alt+S"
+        },
+        {
+          "id": "inspection",
+          "label": "Inspection",
+          "icon": "search",
+          "section": "Applications",
+          "win": "Ctrl+Alt+I"
+        },
+        {
+          "id": "undo",
+          "label": "Undo",
+          "icon": "undo",
+          "section": "Edit",
+          "win": "Ctrl+Z"
+        },
+        {
+          "id": "redo",
+          "label": "Redo",
+          "icon": "redo",
+          "section": "Edit",
+          "win": "Ctrl+Y"
+        },
+        {
+          "id": "delete",
+          "label": "Delete",
+          "icon": "close",
+          "section": "Edit",
+          "win": "Ctrl+D"
+        },
+        {
+          "id": "move",
+          "label": "Move object",
+          "icon": "arrowRight",
+          "section": "Edit",
+          "win": "Ctrl+T"
+        },
+        {
+          "id": "display",
+          "label": "Object display",
+          "icon": "contrast",
+          "section": "Edit",
+          "win": "Ctrl+J"
+        },
+        {
+          "id": "extrude",
+          "label": "Extrude",
+          "icon": "cube",
+          "section": "Edit",
+          "win": "X"
+        },
+        {
+          "id": "finish-sketch",
+          "label": "Finish sketch",
+          "icon": "check",
+          "section": "Edit",
+          "win": "Ctrl+Q"
+        },
+        {
+          "id": "expressions",
+          "label": "Expressions",
+          "icon": "code",
+          "section": "Tools",
+          "win": "Ctrl+E"
+        },
+        {
+          "id": "layers",
+          "label": "Layer settings",
+          "icon": "stack",
+          "section": "Tools",
+          "win": "Ctrl+L"
+        },
+        {
+          "id": "customize",
+          "label": "Customize",
+          "icon": "sliders",
+          "section": "Tools",
+          "win": "Ctrl+1"
+        },
+        {
+          "id": "play-journal",
+          "label": "Play journal",
+          "icon": "playpause",
+          "section": "Tools",
+          "win": "Alt+F8"
+        },
+        {
+          "id": "new",
+          "label": "New",
+          "icon": "plus",
+          "section": "File",
+          "win": "Ctrl+N"
+        },
+        {
+          "id": "open",
+          "label": "Open",
+          "icon": "folder",
+          "section": "File",
+          "win": "Ctrl+O"
+        },
+        {
+          "id": "save",
+          "label": "Save",
+          "icon": "check",
+          "section": "File",
+          "win": "Ctrl+S"
+        },
+        {
+          "id": "save-as",
+          "label": "Save as",
+          "icon": "download",
+          "section": "File",
+          "win": "Ctrl+Shift+A"
+        },
+        {
+          "id": "plot",
+          "label": "Plot",
+          "icon": "print",
+          "section": "File",
+          "win": "Ctrl+P"
+        }
+      ],
+      "ring": [
+        "fit",
+        {
+          "group": "Views",
+          "icon": "cube",
+          "items": [
+            "trimetric",
+            "isometric",
+            "front",
+            "top",
+            "right",
+            "left",
+            "snap"
+          ]
+        },
+        "hide",
+        {
+          "group": "Show & hide",
+          "icon": "eye",
+          "items": [
+            "show",
+            "show-all",
+            "invert",
+            "show-or-hide"
+          ]
+        },
+        "undo",
+        {
+          "group": "Applications",
+          "icon": "apps",
+          "items": [
+            "modeling",
+            "drafting",
+            "manufacturing",
+            "sheet-metal"
+          ]
+        },
+        "section",
+        "save"
       ]
     },
     {
