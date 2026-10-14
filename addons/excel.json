@@ -1,0 +1,239 @@
+{
+  "id": "excel",
+  "name": "Microsoft Excel",
+  "version": 1,
+  "icon": "table",
+  "description": "Fill, AutoSum, rows and columns, number formats, filters and tables in Excel.",
+  "apps": {
+    "mac": [
+      "com.microsoft.Excel"
+    ],
+    "win": [
+      "excel.exe"
+    ]
+  },
+  "shortcuts": [
+    {
+      "id": "autosum",
+      "label": "AutoSum",
+      "icon": "sum",
+      "section": "Formulas",
+      "mac": "Cmd+Shift+T",
+      "win": "Alt+="
+    },
+    {
+      "id": "fill-down",
+      "label": "Fill down",
+      "icon": "download",
+      "section": "Formulas",
+      "mac": "Cmd+D",
+      "win": "Ctrl+D"
+    },
+    {
+      "id": "fill-right",
+      "label": "Fill right",
+      "icon": "arrowRight",
+      "section": "Formulas",
+      "mac": "Cmd+R",
+      "win": "Ctrl+R"
+    },
+    {
+      "id": "today",
+      "label": "Today’s date",
+      "icon": "history",
+      "section": "Formulas",
+      "mac": "Ctrl+;",
+      "win": "Ctrl+;"
+    },
+    {
+      "id": "now",
+      "label": "Current time",
+      "icon": "history",
+      "section": "Formulas",
+      "mac": "Cmd+;",
+      "win": "Ctrl+Shift+;"
+    },
+    {
+      "id": "recalculate",
+      "label": "Recalculate",
+      "icon": "reload",
+      "section": "Formulas",
+      "mac": "F9",
+      "win": "F9"
+    },
+    {
+      "id": "insert",
+      "label": "Insert cells",
+      "icon": "plus",
+      "section": "Rows & columns",
+      "mac": "Cmd+Shift+=",
+      "win": "Ctrl+Shift+="
+    },
+    {
+      "id": "delete",
+      "label": "Delete cells",
+      "icon": "close",
+      "section": "Rows & columns",
+      "mac": "Cmd+-",
+      "win": "Ctrl+-"
+    },
+    {
+      "id": "select-row",
+      "label": "Select row",
+      "icon": "arrowRight",
+      "section": "Rows & columns",
+      "mac": "Shift+Space",
+      "win": "Shift+Space"
+    },
+    {
+      "id": "select-column",
+      "label": "Select column",
+      "icon": "download",
+      "section": "Rows & columns",
+      "mac": "Ctrl+Space",
+      "win": "Ctrl+Space"
+    },
+    {
+      "id": "hide-rows",
+      "label": "Hide rows",
+      "icon": "close",
+      "section": "Rows & columns",
+      "mac": "Cmd+9",
+      "win": "Ctrl+9"
+    },
+    {
+      "id": "hide-columns",
+      "label": "Hide columns",
+      "icon": "close",
+      "section": "Rows & columns",
+      "mac": "Cmd+0",
+      "win": "Ctrl+0"
+    },
+    {
+      "id": "format",
+      "label": "Format cells",
+      "icon": "sliders",
+      "section": "Format",
+      "mac": "Cmd+1",
+      "win": "Ctrl+1"
+    },
+    {
+      "id": "currency",
+      "label": "Currency",
+      "icon": "sum",
+      "section": "Format",
+      "mac": "Ctrl+Shift+4",
+      "win": "Ctrl+Shift+4"
+    },
+    {
+      "id": "percent",
+      "label": "Percent",
+      "icon": "sum",
+      "section": "Format",
+      "mac": "Ctrl+Shift+5",
+      "win": "Ctrl+Shift+5"
+    },
+    {
+      "id": "number",
+      "label": "Number",
+      "icon": "sum",
+      "section": "Format",
+      "mac": "Ctrl+Shift+1",
+      "win": "Ctrl+Shift+1"
+    },
+    {
+      "id": "bold",
+      "label": "Bold",
+      "icon": "bold",
+      "section": "Format",
+      "mac": "Cmd+B",
+      "win": "Ctrl+B"
+    },
+    {
+      "id": "filter",
+      "label": "Filter on / off",
+      "icon": "search",
+      "section": "Data",
+      "mac": "Cmd+Shift+F",
+      "win": "Ctrl+Shift+L"
+    },
+    {
+      "id": "table",
+      "label": "Make a table",
+      "icon": "table",
+      "section": "Data",
+      "mac": "Cmd+T",
+      "win": "Ctrl+T"
+    },
+    {
+      "id": "note",
+      "label": "Add a note",
+      "icon": "chat",
+      "section": "Data",
+      "mac": "Shift+F2",
+      "win": "Shift+F2"
+    },
+    {
+      "id": "new-sheet",
+      "label": "New sheet",
+      "icon": "plus",
+      "section": "Sheets",
+      "mac": "Shift+F11",
+      "win": "Shift+F11"
+    },
+    {
+      "id": "next-sheet",
+      "label": "Next sheet",
+      "icon": "forward",
+      "section": "Sheets",
+      "mac": "Alt+Right",
+      "win": "Ctrl+PageDown"
+    },
+    {
+      "id": "previous-sheet",
+      "label": "Previous sheet",
+      "icon": "back",
+      "section": "Sheets",
+      "mac": "Alt+Left",
+      "win": "Ctrl+PageUp"
+    },
+    {
+      "id": "find",
+      "label": "Find",
+      "icon": "search",
+      "section": "Sheets",
+      "mac": "Cmd+F",
+      "win": "Ctrl+F"
+    }
+  ],
+  "ring": [
+    "autosum",
+    "fill-down",
+    "fill-right",
+    {
+      "group": "Rows & columns",
+      "icon": "table",
+      "items": [
+        "insert",
+        "delete",
+        "select-row",
+        "select-column",
+        "hide-rows",
+        "hide-columns"
+      ]
+    },
+    "filter",
+    {
+      "group": "Number format",
+      "icon": "sum",
+      "items": [
+        "number",
+        "currency",
+        "percent",
+        "format"
+      ]
+    },
+    "table",
+    "today"
+  ]
+}
