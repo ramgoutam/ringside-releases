@@ -1,0 +1,50 @@
+{
+  "id": "exocad-dentaldb",
+  "name": "exocad DentalDB",
+  "version": 1,
+  "icon": "tooth",
+  "description": "New, open, save and duplicate projects in exocad DentalDB.",
+  "apps": {
+    "mac": [],
+    "win": [
+      "dentaldb.exe",
+      "dentaldbapp.exe"
+    ]
+  },
+  "shortcuts": [
+    {
+      "id": "new",
+      "label": "New project",
+      "icon": "plus",
+      "section": "Projects",
+      "win": "Ctrl+N"
+    },
+    {
+      "id": "open",
+      "label": "Load a project",
+      "icon": "folder",
+      "section": "Projects",
+      "win": "Ctrl+L"
+    },
+    {
+      "id": "save",
+      "label": "Save",
+      "icon": "check",
+      "section": "Projects",
+      "win": "Ctrl+S"
+    },
+    {
+      "id": "duplicate",
+      "label": "Duplicate project",
+      "icon": "copy",
+      "section": "Projects",
+      "win": "Ctrl+D"
+    }
+  ],
+  "ring": [
+    "new",
+    "open",
+    "save",
+    "duplicate"
+  ]
+}
