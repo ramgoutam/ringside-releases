@@ -1,8 +1,9 @@
 {
   "id": "zoom",
   "name": "Zoom",
-  "version": 1,
+  "version": 2,
   "icon": "camera",
+  "iconUrl": "https://zoom.us/apple-touch-icon.png",
   "description": "Mute, video, screen sharing, recording and the rest of Zoom's meeting shortcuts.",
   "apps": { "mac": ["us.zoom.xos"], "win": ["zoom.exe"] },
   "shortcuts": [
