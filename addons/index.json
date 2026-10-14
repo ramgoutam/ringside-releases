@@ -1,0 +1,34 @@
+{
+  "addons": [
+    {
+      "id": "chrome",
+      "name": "Google Chrome",
+      "version": 1,
+      "description": "Tabs, windows, history, bookmarks, zoom and developer tools in Chrome.",
+      "apps": {
+        "mac": [
+          "com.google.Chrome"
+        ],
+        "win": [
+          "chrome.exe"
+        ]
+      },
+      "shortcuts": 35
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "version": 1,
+      "description": "Mute, video, screen sharing, recording and the rest of Zoom's meeting shortcuts.",
+      "apps": {
+        "mac": [
+          "us.zoom.xos"
+        ],
+        "win": [
+          "zoom.exe"
+        ]
+      },
+      "shortcuts": 21
+    }
+  ]
+}
