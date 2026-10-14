@@ -1,0 +1,40 @@
+{
+  "id": "zoom",
+  "name": "Zoom",
+  "version": 1,
+  "description": "Mute, video, screen sharing, recording and the rest of Zoom's meeting shortcuts.",
+  "apps": { "mac": ["us.zoom.xos"], "win": ["zoom.exe"] },
+  "shortcuts": [
+    { "id": "mute", "label": "Mute / unmute", "icon": "mic", "section": "Audio & video", "mac": "Cmd+Shift+A", "win": "Alt+A" },
+    { "id": "video", "label": "Video on / off", "icon": "camera", "section": "Audio & video", "mac": "Cmd+Shift+V", "win": "Alt+V" },
+    { "id": "switch-camera", "label": "Switch camera", "icon": "camera", "section": "Audio & video", "mac": "Cmd+Shift+N", "win": "Alt+N" },
+    { "id": "mute-all", "label": "Mute everyone", "icon": "mute", "section": "Audio & video", "mac": "Ctrl+Cmd+M", "win": "Alt+M" },
+    { "id": "unmute-all", "label": "Unmute everyone", "icon": "mic", "section": "Audio & video", "mac": "Ctrl+Cmd+U" },
+    { "id": "share", "label": "Share screen", "icon": "share", "section": "Sharing", "mac": "Cmd+Shift+S", "win": "Alt+S" },
+    { "id": "pause-share", "label": "Pause sharing", "icon": "pause", "section": "Sharing", "mac": "Cmd+Shift+T", "win": "Alt+T" },
+    { "id": "record", "label": "Record", "icon": "record", "section": "Recording", "mac": "Cmd+Shift+R", "win": "Alt+R" },
+    { "id": "record-cloud", "label": "Record to the cloud", "icon": "record", "section": "Recording", "mac": "Cmd+Shift+C", "win": "Alt+C" },
+    { "id": "pause-record", "label": "Pause recording", "icon": "pause", "section": "Recording", "mac": "Cmd+Shift+P", "win": "Alt+P" },
+    { "id": "screenshot", "label": "Screenshot", "icon": "screenshot", "section": "Recording", "mac": "Cmd+T", "win": "Alt+Shift+T" },
+    { "id": "hand", "label": "Raise / lower hand", "icon": "hand", "section": "Meeting", "mac": "Alt+Y", "win": "Alt+Y" },
+    { "id": "chat", "label": "Chat", "icon": "chat", "section": "Meeting", "mac": "Cmd+Shift+H", "win": "Alt+H" },
+    { "id": "participants", "label": "Participants", "icon": "people", "section": "Meeting", "mac": "Cmd+U", "win": "Alt+U" },
+    { "id": "invite", "label": "Invite", "icon": "plus", "section": "Meeting", "mac": "Cmd+I", "win": "Alt+I" },
+    { "id": "leave", "label": "Leave meeting", "icon": "leave", "section": "Meeting", "mac": "Cmd+W", "win": "Alt+Q" },
+    { "id": "speaker-view", "label": "Speaker view", "icon": "person", "section": "View", "mac": "Cmd+Shift+W", "win": "Alt+F1" },
+    { "id": "gallery-view", "label": "Gallery view", "icon": "apps", "section": "View", "win": "Alt+F2" },
+    { "id": "full-screen", "label": "Full screen", "icon": "maximize", "section": "View", "mac": "Cmd+Shift+F", "win": "Alt+F" },
+    { "id": "minimal", "label": "Minimal window", "icon": "snapBottom", "section": "View", "mac": "Cmd+Shift+M" },
+    { "id": "keep-controls", "label": "Always show controls", "icon": "sliders", "section": "View", "mac": "Ctrl+\\" }
+  ],
+  "ring": [
+    "mute",
+    "video",
+    "share",
+    { "group": "Recording", "icon": "record", "items": ["record", "record-cloud", "pause-record", "screenshot"] },
+    "leave",
+    { "group": "View", "icon": "apps", "items": ["speaker-view", "gallery-view", "full-screen", "minimal"] },
+    "chat",
+    "hand"
+  ]
+}
