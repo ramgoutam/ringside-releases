@@ -1,7 +1,7 @@
 {
   "id": "siemens-nx",
   "name": "Siemens NX",
-  "version": 2,
+  "version": 3,
   "icon": "cube",
   "iconUrl": "https://www.siemens.com/favicon.ico",
   "description": "Views, show and hide, applications, sections, expressions and files in Siemens NX.",
@@ -15,14 +15,14 @@
     {
       "id": "fit",
       "label": "Fit",
-      "icon": "maximize",
+      "icon": "fit",
       "section": "View",
       "win": "Ctrl+F"
     },
     {
       "id": "trimetric",
       "label": "Trimetric",
-      "icon": "cube",
+      "icon": "viewTrimetric",
       "section": "View",
       "win": "Home"
     },
@@ -36,35 +36,35 @@
     {
       "id": "front",
       "label": "Front",
-      "icon": "cube",
+      "icon": "viewFront",
       "section": "View",
       "win": "Ctrl+Alt+F"
     },
     {
       "id": "top",
       "label": "Top",
-      "icon": "cube",
+      "icon": "viewTop",
       "section": "View",
       "win": "Ctrl+Alt+T"
     },
     {
       "id": "right",
       "label": "Right",
-      "icon": "cube",
+      "icon": "viewRight",
       "section": "View",
       "win": "Ctrl+Alt+R"
     },
     {
       "id": "left",
       "label": "Left",
-      "icon": "cube",
+      "icon": "viewLeft",
       "section": "View",
       "win": "Ctrl+Alt+L"
     },
     {
       "id": "snap",
       "label": "Snap view",
-      "icon": "cube",
+      "icon": "snapView",
       "section": "View",
       "win": "F8"
     },
@@ -106,7 +106,7 @@
     {
       "id": "hide",
       "label": "Hide",
-      "icon": "eye",
+      "icon": "eyeOff",
       "section": "Show & hide",
       "win": "Ctrl+B"
     },
@@ -120,7 +120,7 @@
     {
       "id": "show-all",
       "label": "Show all",
-      "icon": "eye",
+      "icon": "showAll",
       "section": "Show & hide",
       "win": "Ctrl+Shift+U"
     },
@@ -134,49 +134,49 @@
     {
       "id": "show-or-hide",
       "label": "Show and hide",
-      "icon": "eye",
+      "icon": "showHide",
       "section": "Show & hide",
       "win": "Ctrl+W"
     },
     {
       "id": "immediate-hide",
       "label": "Immediate hide",
-      "icon": "eye",
+      "icon": "hideClick",
       "section": "Show & hide",
       "win": "Ctrl+Shift+I"
     },
     {
       "id": "modeling",
       "label": "Modeling",
-      "icon": "cube",
+      "icon": "modeling",
       "section": "Applications",
       "win": "Ctrl+M"
     },
     {
       "id": "drafting",
       "label": "Drafting",
-      "icon": "pen",
+      "icon": "drawing",
       "section": "Applications",
       "win": "Ctrl+Shift+D"
     },
     {
       "id": "manufacturing",
       "label": "Manufacturing",
-      "icon": "sliders",
+      "icon": "mill",
       "section": "Applications",
       "win": "Ctrl+Alt+M"
     },
     {
       "id": "sheet-metal",
       "label": "Sheet metal",
-      "icon": "stack",
+      "icon": "sheetMetal",
       "section": "Applications",
       "win": "Ctrl+Shift+M"
     },
     {
       "id": "shape-studio",
       "label": "Shape studio",
-      "icon": "sparkles",
+      "icon": "curve",
       "section": "Applications",
       "win": "Ctrl+Alt+S"
     },
@@ -204,49 +204,49 @@
     {
       "id": "delete",
       "label": "Delete",
-      "icon": "close",
+      "icon": "trash",
       "section": "Edit",
       "win": "Ctrl+D"
     },
     {
       "id": "move",
       "label": "Move object",
-      "icon": "arrowRight",
+      "icon": "move",
       "section": "Edit",
       "win": "Ctrl+T"
     },
     {
       "id": "display",
       "label": "Object display",
-      "icon": "contrast",
+      "icon": "brush",
       "section": "Edit",
       "win": "Ctrl+J"
     },
     {
       "id": "extrude",
       "label": "Extrude",
-      "icon": "cube",
+      "icon": "extrude",
       "section": "Edit",
       "win": "X"
     },
     {
       "id": "finish-sketch",
       "label": "Finish sketch",
-      "icon": "check",
+      "icon": "finishFlag",
       "section": "Edit",
       "win": "Ctrl+Q"
     },
     {
       "id": "expressions",
       "label": "Expressions",
-      "icon": "code",
+      "icon": "formula",
       "section": "Tools",
       "win": "Ctrl+E"
     },
     {
       "id": "layers",
       "label": "Layer settings",
-      "icon": "stack",
+      "icon": "layers",
       "section": "Tools",
       "win": "Ctrl+L"
     },
@@ -260,7 +260,7 @@
     {
       "id": "play-journal",
       "label": "Play journal",
-      "icon": "playpause",
+      "icon": "journal",
       "section": "Tools",
       "win": "Alt+F8"
     },
@@ -281,14 +281,14 @@
     {
       "id": "save",
       "label": "Save",
-      "icon": "check",
+      "icon": "save",
       "section": "File",
       "win": "Ctrl+S"
     },
     {
       "id": "save-as",
       "label": "Save as",
-      "icon": "download",
+      "icon": "saveAs",
       "section": "File",
       "win": "Ctrl+Shift+A"
     },
@@ -304,7 +304,7 @@
     "fit",
     {
       "group": "Views",
-      "icon": "cube",
+      "icon": "viewTrimetric",
       "items": [
         "trimetric",
         "isometric",
@@ -318,7 +318,7 @@
     "hide",
     {
       "group": "Show & hide",
-      "icon": "eye",
+      "icon": "showAll",
       "items": [
         "show",
         "show-all",
