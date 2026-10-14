@@ -3,8 +3,9 @@
     {
       "id": "chrome",
       "name": "Google Chrome",
-      "version": 1,
+      "version": 2,
       "icon": "globe",
+      "iconUrl": "https://www.google.com/chrome/static/images/chrome-logo-m100.svg",
       "description": "Tabs, windows, history, bookmarks, zoom and developer tools in Chrome.",
       "apps": {
         "mac": [
@@ -326,8 +327,9 @@
     {
       "id": "excel",
       "name": "Microsoft Excel",
-      "version": 1,
+      "version": 2,
       "icon": "table",
+      "iconUrl": "https://res-1.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/svg/excel_48x1.svg",
       "description": "Fill, AutoSum, rows and columns, number formats, filters and tables in Excel.",
       "apps": {
         "mac": [
@@ -565,8 +567,9 @@
     {
       "id": "exocad-dentalcad",
       "name": "exocad DentalCAD",
-      "version": 1,
+      "version": 2,
       "icon": "tooth",
+      "iconUrl": "https://exocad.com/typo3conf/templates/_shared/gfx/favicon_192x192.png",
       "description": "Wizard steps, undo, show and hide groups, margin tools, measuring and the ruler in exocad DentalCAD.",
       "apps": {
         "mac": [],
@@ -744,8 +747,9 @@
     {
       "id": "exocad-dentaldb",
       "name": "exocad DentalDB",
-      "version": 1,
+      "version": 2,
       "icon": "tooth",
+      "iconUrl": "https://exocad.com/typo3conf/templates/_shared/gfx/favicon_192x192.png",
       "description": "New, open, save and duplicate projects in exocad DentalDB.",
       "apps": {
         "mac": [],
@@ -794,8 +798,9 @@
     {
       "id": "google-meet",
       "name": "Google Meet",
-      "version": 1,
+      "version": 2,
       "icon": "camera",
+      "iconUrl": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png",
       "web": true,
       "description": "Mute, camera, raise hand, chat, people and captions in Google Meet, in your browser.",
       "apps": {
@@ -871,8 +876,9 @@
     {
       "id": "powerpoint",
       "name": "Microsoft PowerPoint",
-      "version": 1,
+      "version": 2,
       "icon": "slides",
+      "iconUrl": "https://res-1.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/svg/powerpoint_48x1.svg",
       "description": "New and duplicate slides, grouping and arranging, and presenting with the ring in PowerPoint.",
       "apps": {
         "mac": [
@@ -1102,8 +1108,9 @@
     {
       "id": "siemens-nx",
       "name": "Siemens NX",
-      "version": 1,
+      "version": 2,
       "icon": "cube",
+      "iconUrl": "https://www.siemens.com/favicon.ico",
       "description": "Views, show and hide, applications, sections, expressions and files in Siemens NX.",
       "apps": {
         "mac": [],
@@ -1444,8 +1451,9 @@
     {
       "id": "spotify",
       "name": "Spotify",
-      "version": 1,
+      "version": 2,
       "icon": "playpause",
+      "iconUrl": "https://open.spotifycdn.com/cdn/images/icons/Spotify_MWP_192.ebf939fd.png",
       "description": "Play, skip, like, shuffle, repeat, volume and search in the Spotify app.",
       "apps": {
         "mac": [
@@ -1599,8 +1607,9 @@
     {
       "id": "teams",
       "name": "Microsoft Teams",
-      "version": 1,
+      "version": 2,
       "icon": "people",
+      "iconUrl": "https://res-1.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/svg/teams_48x1.svg",
       "description": "Mute, camera, screen sharing, raise hand and leave in meetings, and getting around Teams.",
       "apps": {
         "mac": [
@@ -1806,8 +1815,9 @@
     {
       "id": "word",
       "name": "Microsoft Word",
-      "version": 1,
+      "version": 2,
       "icon": "text",
+      "iconUrl": "https://res-1.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/svg/word_48x1.svg",
       "description": "Formatting, headings, lists, alignment, comments and review in Word.",
       "apps": {
         "mac": [
@@ -2059,8 +2069,9 @@
     {
       "id": "zoom",
       "name": "Zoom",
-      "version": 1,
+      "version": 2,
       "icon": "camera",
+      "iconUrl": "https://zoom.us/apple-touch-icon.png",
       "description": "Mute, video, screen sharing, recording and the rest of Zoom's meeting shortcuts.",
       "apps": {
         "mac": [
