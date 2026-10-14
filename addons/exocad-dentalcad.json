@@ -1,0 +1,179 @@
+{
+  "id": "exocad-dentalcad",
+  "name": "exocad DentalCAD",
+  "version": 1,
+  "icon": "tooth",
+  "description": "Wizard steps, undo, show and hide groups, margin tools, measuring and the ruler in exocad DentalCAD.",
+  "apps": {
+    "mac": [],
+    "win": [
+      "dentalcadapp.exe",
+      "dentalcad.exe"
+    ]
+  },
+  "shortcuts": [
+    {
+      "id": "next",
+      "label": "Next step",
+      "icon": "arrowRight",
+      "section": "Design",
+      "win": "Space"
+    },
+    {
+      "id": "undo",
+      "label": "Undo",
+      "icon": "undo",
+      "section": "Design",
+      "win": "Ctrl+Z"
+    },
+    {
+      "id": "redo",
+      "label": "Redo",
+      "icon": "redo",
+      "section": "Design",
+      "win": "Ctrl+Y"
+    },
+    {
+      "id": "exit-tool",
+      "label": "Leave the tool",
+      "icon": "close",
+      "section": "Design",
+      "win": "Escape"
+    },
+    {
+      "id": "equator",
+      "label": "Hold eQuator",
+      "icon": "cube",
+      "section": "Design",
+      "win": "Ctrl+U"
+    },
+    {
+      "id": "antagonist",
+      "label": "Antagonist",
+      "icon": "eye",
+      "section": "Show & hide",
+      "win": "A"
+    },
+    {
+      "id": "jaw",
+      "label": "Jaw scans",
+      "icon": "eye",
+      "section": "Show & hide",
+      "win": "S"
+    },
+    {
+      "id": "waxup",
+      "label": "Waxup",
+      "icon": "eye",
+      "section": "Show & hide",
+      "win": "W"
+    },
+    {
+      "id": "preop",
+      "label": "Pre-op",
+      "icon": "eye",
+      "section": "Show & hide",
+      "win": "P"
+    },
+    {
+      "id": "connectors",
+      "label": "Connectors",
+      "icon": "eye",
+      "section": "Show & hide",
+      "win": "C"
+    },
+    {
+      "id": "other",
+      "label": "Other objects",
+      "icon": "eye",
+      "section": "Show & hide",
+      "win": "O"
+    },
+    {
+      "id": "detect",
+      "label": "Detect margin",
+      "icon": "tooth",
+      "section": "Margin",
+      "win": "1"
+    },
+    {
+      "id": "edit",
+      "label": "Draw: edit",
+      "icon": "pen",
+      "section": "Margin",
+      "win": "2"
+    },
+    {
+      "id": "magnetic",
+      "label": "Draw: magnetic",
+      "icon": "pen",
+      "section": "Margin",
+      "win": "3"
+    },
+    {
+      "id": "free",
+      "label": "Draw: free",
+      "icon": "pen",
+      "section": "Margin",
+      "win": "4"
+    },
+    {
+      "id": "measure",
+      "label": "Measure",
+      "icon": "ruler",
+      "section": "View",
+      "win": "Ctrl+R"
+    },
+    {
+      "id": "ruler",
+      "label": "Ruler and grid",
+      "icon": "ruler",
+      "section": "View",
+      "win": "Ctrl+Shift+R"
+    },
+    {
+      "id": "center",
+      "label": "Rotate around the pointer",
+      "icon": "reload",
+      "section": "View",
+      "win": "Home"
+    },
+    {
+      "id": "remote",
+      "label": "Optimize for remote view",
+      "icon": "display",
+      "section": "View",
+      "win": "Ctrl+Shift+F3"
+    }
+  ],
+  "ring": [
+    "next",
+    "redo",
+    {
+      "group": "Show & hide",
+      "icon": "eye",
+      "items": [
+        "antagonist",
+        "jaw",
+        "waxup",
+        "preop",
+        "connectors",
+        "other"
+      ]
+    },
+    "measure",
+    "exit-tool",
+    {
+      "group": "Margin",
+      "icon": "tooth",
+      "items": [
+        "detect",
+        "edit",
+        "magnetic",
+        "free"
+      ]
+    },
+    "ruler",
+    "undo"
+  ]
+}
