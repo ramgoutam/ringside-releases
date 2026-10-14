@@ -1,8 +1,9 @@
 {
   "id": "spotify",
   "name": "Spotify",
-  "version": 1,
+  "version": 2,
   "icon": "playpause",
+  "iconUrl": "https://open.spotifycdn.com/cdn/images/icons/Spotify_MWP_192.ebf939fd.png",
   "description": "Play, skip, like, shuffle, repeat, volume and search in the Spotify app.",
   "apps": {
     "mac": [
