@@ -324,6 +324,1168 @@
       ]
     },
     {
+      "id": "excel",
+      "name": "Microsoft Excel",
+      "version": 1,
+      "icon": "table",
+      "description": "Fill, AutoSum, rows and columns, number formats, filters and tables in Excel.",
+      "apps": {
+        "mac": [
+          "com.microsoft.Excel"
+        ],
+        "win": [
+          "excel.exe"
+        ]
+      },
+      "shortcuts": [
+        {
+          "id": "autosum",
+          "label": "AutoSum",
+          "icon": "sum",
+          "section": "Formulas",
+          "mac": "Cmd+Shift+T",
+          "win": "Alt+="
+        },
+        {
+          "id": "fill-down",
+          "label": "Fill down",
+          "icon": "download",
+          "section": "Formulas",
+          "mac": "Cmd+D",
+          "win": "Ctrl+D"
+        },
+        {
+          "id": "fill-right",
+          "label": "Fill right",
+          "icon": "arrowRight",
+          "section": "Formulas",
+          "mac": "Cmd+R",
+          "win": "Ctrl+R"
+        },
+        {
+          "id": "today",
+          "label": "Today’s date",
+          "icon": "history",
+          "section": "Formulas",
+          "mac": "Ctrl+;",
+          "win": "Ctrl+;"
+        },
+        {
+          "id": "now",
+          "label": "Current time",
+          "icon": "history",
+          "section": "Formulas",
+          "mac": "Cmd+;",
+          "win": "Ctrl+Shift+;"
+        },
+        {
+          "id": "recalculate",
+          "label": "Recalculate",
+          "icon": "reload",
+          "section": "Formulas",
+          "mac": "F9",
+          "win": "F9"
+        },
+        {
+          "id": "insert",
+          "label": "Insert cells",
+          "icon": "plus",
+          "section": "Rows & columns",
+          "mac": "Cmd+Shift+=",
+          "win": "Ctrl+Shift+="
+        },
+        {
+          "id": "delete",
+          "label": "Delete cells",
+          "icon": "close",
+          "section": "Rows & columns",
+          "mac": "Cmd+-",
+          "win": "Ctrl+-"
+        },
+        {
+          "id": "select-row",
+          "label": "Select row",
+          "icon": "arrowRight",
+          "section": "Rows & columns",
+          "mac": "Shift+Space",
+          "win": "Shift+Space"
+        },
+        {
+          "id": "select-column",
+          "label": "Select column",
+          "icon": "download",
+          "section": "Rows & columns",
+          "mac": "Ctrl+Space",
+          "win": "Ctrl+Space"
+        },
+        {
+          "id": "hide-rows",
+          "label": "Hide rows",
+          "icon": "close",
+          "section": "Rows & columns",
+          "mac": "Cmd+9",
+          "win": "Ctrl+9"
+        },
+        {
+          "id": "hide-columns",
+          "label": "Hide columns",
+          "icon": "close",
+          "section": "Rows & columns",
+          "mac": "Cmd+0",
+          "win": "Ctrl+0"
+        },
+        {
+          "id": "format",
+          "label": "Format cells",
+          "icon": "sliders",
+          "section": "Format",
+          "mac": "Cmd+1",
+          "win": "Ctrl+1"
+        },
+        {
+          "id": "currency",
+          "label": "Currency",
+          "icon": "sum",
+          "section": "Format",
+          "mac": "Ctrl+Shift+4",
+          "win": "Ctrl+Shift+4"
+        },
+        {
+          "id": "percent",
+          "label": "Percent",
+          "icon": "sum",
+          "section": "Format",
+          "mac": "Ctrl+Shift+5",
+          "win": "Ctrl+Shift+5"
+        },
+        {
+          "id": "number",
+          "label": "Number",
+          "icon": "sum",
+          "section": "Format",
+          "mac": "Ctrl+Shift+1",
+          "win": "Ctrl+Shift+1"
+        },
+        {
+          "id": "bold",
+          "label": "Bold",
+          "icon": "bold",
+          "section": "Format",
+          "mac": "Cmd+B",
+          "win": "Ctrl+B"
+        },
+        {
+          "id": "filter",
+          "label": "Filter on / off",
+          "icon": "search",
+          "section": "Data",
+          "mac": "Cmd+Shift+F",
+          "win": "Ctrl+Shift+L"
+        },
+        {
+          "id": "table",
+          "label": "Make a table",
+          "icon": "table",
+          "section": "Data",
+          "mac": "Cmd+T",
+          "win": "Ctrl+T"
+        },
+        {
+          "id": "note",
+          "label": "Add a note",
+          "icon": "chat",
+          "section": "Data",
+          "mac": "Shift+F2",
+          "win": "Shift+F2"
+        },
+        {
+          "id": "new-sheet",
+          "label": "New sheet",
+          "icon": "plus",
+          "section": "Sheets",
+          "mac": "Shift+F11",
+          "win": "Shift+F11"
+        },
+        {
+          "id": "next-sheet",
+          "label": "Next sheet",
+          "icon": "forward",
+          "section": "Sheets",
+          "mac": "Alt+Right",
+          "win": "Ctrl+PageDown"
+        },
+        {
+          "id": "previous-sheet",
+          "label": "Previous sheet",
+          "icon": "back",
+          "section": "Sheets",
+          "mac": "Alt+Left",
+          "win": "Ctrl+PageUp"
+        },
+        {
+          "id": "find",
+          "label": "Find",
+          "icon": "search",
+          "section": "Sheets",
+          "mac": "Cmd+F",
+          "win": "Ctrl+F"
+        }
+      ],
+      "ring": [
+        "autosum",
+        "fill-down",
+        "fill-right",
+        {
+          "group": "Rows & columns",
+          "icon": "table",
+          "items": [
+            "insert",
+            "delete",
+            "select-row",
+            "select-column",
+            "hide-rows",
+            "hide-columns"
+          ]
+        },
+        "filter",
+        {
+          "group": "Number format",
+          "icon": "sum",
+          "items": [
+            "number",
+            "currency",
+            "percent",
+            "format"
+          ]
+        },
+        "table",
+        "today"
+      ]
+    },
+    {
+      "id": "google-meet",
+      "name": "Google Meet",
+      "version": 1,
+      "icon": "camera",
+      "web": true,
+      "description": "Mute, camera, raise hand, chat, people and captions in Google Meet, in your browser.",
+      "apps": {
+        "mac": [],
+        "win": []
+      },
+      "shortcuts": [
+        {
+          "id": "mute",
+          "label": "Mute / unmute",
+          "icon": "mic",
+          "section": "Meeting",
+          "mac": "Cmd+D",
+          "win": "Ctrl+D"
+        },
+        {
+          "id": "camera",
+          "label": "Camera on / off",
+          "icon": "camera",
+          "section": "Meeting",
+          "mac": "Cmd+E",
+          "win": "Ctrl+E"
+        },
+        {
+          "id": "hand",
+          "label": "Raise / lower hand",
+          "icon": "hand",
+          "section": "Meeting",
+          "mac": "Ctrl+Cmd+H",
+          "win": "Ctrl+Alt+H"
+        },
+        {
+          "id": "chat",
+          "label": "Chat",
+          "icon": "chat",
+          "section": "Panels",
+          "mac": "Ctrl+Cmd+C",
+          "win": "Ctrl+Alt+C"
+        },
+        {
+          "id": "people",
+          "label": "People",
+          "icon": "people",
+          "section": "Panels",
+          "mac": "Ctrl+Cmd+P",
+          "win": "Ctrl+Alt+P"
+        },
+        {
+          "id": "captions",
+          "label": "Captions on / off",
+          "icon": "captions",
+          "section": "Panels",
+          "mac": "C",
+          "win": "C"
+        }
+      ],
+      "ring": [
+        {
+          "group": "Meet",
+          "icon": "camera",
+          "items": [
+            "mute",
+            "camera",
+            "hand",
+            "chat",
+            "people",
+            "captions"
+          ]
+        },
+        null
+      ]
+    },
+    {
+      "id": "powerpoint",
+      "name": "Microsoft PowerPoint",
+      "version": 1,
+      "icon": "slides",
+      "description": "New and duplicate slides, grouping and arranging, and presenting with the ring in PowerPoint.",
+      "apps": {
+        "mac": [
+          "com.microsoft.Powerpoint"
+        ],
+        "win": [
+          "powerpnt.exe"
+        ]
+      },
+      "shortcuts": [
+        {
+          "id": "new-slide",
+          "label": "New slide",
+          "icon": "plus",
+          "section": "Slides",
+          "mac": "Cmd+Shift+N",
+          "win": "Ctrl+M"
+        },
+        {
+          "id": "duplicate",
+          "label": "Duplicate slide",
+          "icon": "copy",
+          "section": "Slides",
+          "mac": "Cmd+Shift+D",
+          "win": "Ctrl+D"
+        },
+        {
+          "id": "start",
+          "label": "Present from the start",
+          "icon": "slides",
+          "section": "Present",
+          "mac": "Cmd+Shift+Return",
+          "win": "F5"
+        },
+        {
+          "id": "start-here",
+          "label": "Present from this slide",
+          "icon": "slides",
+          "section": "Present",
+          "mac": "Cmd+Return",
+          "win": "Shift+F5"
+        },
+        {
+          "id": "next",
+          "label": "Next slide",
+          "icon": "forward",
+          "section": "Present",
+          "mac": "Right",
+          "win": "Right"
+        },
+        {
+          "id": "previous",
+          "label": "Previous slide",
+          "icon": "back",
+          "section": "Present",
+          "mac": "Left",
+          "win": "Left"
+        },
+        {
+          "id": "black",
+          "label": "Black screen",
+          "icon": "pause",
+          "section": "Present",
+          "mac": "B",
+          "win": "B"
+        },
+        {
+          "id": "white",
+          "label": "White screen",
+          "icon": "sun",
+          "section": "Present",
+          "mac": "W",
+          "win": "W"
+        },
+        {
+          "id": "laser",
+          "label": "Laser pointer",
+          "icon": "pen",
+          "section": "Present",
+          "mac": "Cmd+L",
+          "win": "Ctrl+L"
+        },
+        {
+          "id": "end",
+          "label": "End show",
+          "icon": "close",
+          "section": "Present",
+          "mac": "Escape",
+          "win": "Escape"
+        },
+        {
+          "id": "group",
+          "label": "Group",
+          "icon": "stack",
+          "section": "Arrange",
+          "mac": "Alt+Cmd+G",
+          "win": "Ctrl+G"
+        },
+        {
+          "id": "ungroup",
+          "label": "Ungroup",
+          "icon": "apps",
+          "section": "Arrange",
+          "mac": "Alt+Cmd+Shift+G",
+          "win": "Ctrl+Shift+G"
+        },
+        {
+          "id": "forward",
+          "label": "Bring forward",
+          "icon": "arrowRight",
+          "section": "Arrange",
+          "mac": "Cmd+Shift+F",
+          "win": "Ctrl+]"
+        },
+        {
+          "id": "backward",
+          "label": "Send backward",
+          "icon": "arrowLeft",
+          "section": "Arrange",
+          "mac": "Cmd+Shift+B",
+          "win": "Ctrl+["
+        },
+        {
+          "id": "bold",
+          "label": "Bold",
+          "icon": "bold",
+          "section": "Text",
+          "mac": "Cmd+B",
+          "win": "Ctrl+B"
+        },
+        {
+          "id": "italic",
+          "label": "Italic",
+          "icon": "italic",
+          "section": "Text",
+          "mac": "Cmd+I",
+          "win": "Ctrl+I"
+        },
+        {
+          "id": "underline",
+          "label": "Underline",
+          "icon": "underline",
+          "section": "Text",
+          "mac": "Cmd+U",
+          "win": "Ctrl+U"
+        },
+        {
+          "id": "bigger",
+          "label": "Bigger text",
+          "icon": "zoomIn",
+          "section": "Text",
+          "mac": "Cmd+Shift+.",
+          "win": "Ctrl+Shift+."
+        },
+        {
+          "id": "smaller",
+          "label": "Smaller text",
+          "icon": "zoomOut",
+          "section": "Text",
+          "mac": "Cmd+Shift+,",
+          "win": "Ctrl+Shift+,"
+        },
+        {
+          "id": "center",
+          "label": "Center text",
+          "icon": "alignCenter",
+          "section": "Text",
+          "mac": "Cmd+E",
+          "win": "Ctrl+E"
+        },
+        {
+          "id": "copy-format",
+          "label": "Copy formatting",
+          "icon": "brush",
+          "section": "Text",
+          "mac": "Cmd+Shift+C",
+          "win": "Ctrl+Shift+C"
+        },
+        {
+          "id": "paste-format",
+          "label": "Paste formatting",
+          "icon": "brush",
+          "section": "Text",
+          "mac": "Cmd+Shift+V",
+          "win": "Ctrl+Shift+V"
+        },
+        {
+          "id": "link",
+          "label": "Insert link",
+          "icon": "link",
+          "section": "Text",
+          "mac": "Cmd+K",
+          "win": "Ctrl+K"
+        }
+      ],
+      "ring": [
+        "new-slide",
+        "duplicate",
+        "start",
+        {
+          "group": "Presenting",
+          "icon": "slides",
+          "items": [
+            "next",
+            "previous",
+            "black",
+            "white",
+            "laser",
+            "end"
+          ]
+        },
+        "start-here",
+        {
+          "group": "Arrange",
+          "icon": "stack",
+          "items": [
+            "group",
+            "ungroup",
+            "forward",
+            "backward"
+          ]
+        },
+        "copy-format",
+        "paste-format"
+      ]
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "version": 1,
+      "icon": "playpause",
+      "description": "Play, skip, like, shuffle, repeat, volume and search in the Spotify app.",
+      "apps": {
+        "mac": [
+          "com.spotify.client"
+        ],
+        "win": [
+          "spotify.exe"
+        ]
+      },
+      "shortcuts": [
+        {
+          "id": "play",
+          "label": "Play / pause",
+          "icon": "playpause",
+          "section": "Playback",
+          "mac": "Space",
+          "win": "Space"
+        },
+        {
+          "id": "next",
+          "label": "Next song",
+          "icon": "next",
+          "section": "Playback",
+          "mac": "Cmd+Right",
+          "win": "Ctrl+Right"
+        },
+        {
+          "id": "previous",
+          "label": "Previous song",
+          "icon": "previous",
+          "section": "Playback",
+          "mac": "Cmd+Left",
+          "win": "Ctrl+Left"
+        },
+        {
+          "id": "shuffle",
+          "label": "Shuffle",
+          "icon": "shuffle",
+          "section": "Playback",
+          "mac": "Cmd+S",
+          "win": "Ctrl+S"
+        },
+        {
+          "id": "repeat",
+          "label": "Repeat",
+          "icon": "repeat",
+          "section": "Playback",
+          "mac": "Cmd+R",
+          "win": "Ctrl+R"
+        },
+        {
+          "id": "like",
+          "label": "Like this song",
+          "icon": "heart",
+          "section": "Playback",
+          "mac": "Alt+Shift+B",
+          "win": "Alt+Shift+B"
+        },
+        {
+          "id": "louder",
+          "label": "Volume up",
+          "icon": "volume",
+          "section": "Volume",
+          "mac": "Cmd+Up",
+          "win": "Ctrl+Up"
+        },
+        {
+          "id": "quieter",
+          "label": "Volume down",
+          "icon": "volumeDown",
+          "section": "Volume",
+          "mac": "Cmd+Down",
+          "win": "Ctrl+Down"
+        },
+        {
+          "id": "search",
+          "label": "Search",
+          "icon": "search",
+          "section": "Go to",
+          "mac": "Cmd+K",
+          "win": "Ctrl+K"
+        },
+        {
+          "id": "home",
+          "label": "Home",
+          "icon": "home",
+          "section": "Go to",
+          "mac": "Alt+Shift+H",
+          "win": "Alt+Shift+H"
+        },
+        {
+          "id": "library",
+          "label": "Your Library",
+          "icon": "stack",
+          "section": "Go to",
+          "mac": "Alt+Shift+0",
+          "win": "Alt+Shift+0"
+        },
+        {
+          "id": "queue",
+          "label": "Queue",
+          "icon": "list",
+          "section": "Go to",
+          "mac": "Alt+Shift+Q",
+          "win": "Alt+Shift+Q"
+        },
+        {
+          "id": "lyrics",
+          "label": "Lyrics",
+          "icon": "text",
+          "section": "Go to",
+          "mac": "Alt+Shift+J",
+          "win": "Alt+Shift+J"
+        },
+        {
+          "id": "back",
+          "label": "Back",
+          "icon": "back",
+          "section": "Go to",
+          "mac": "Cmd+[",
+          "win": "Alt+Left"
+        },
+        {
+          "id": "forward",
+          "label": "Forward",
+          "icon": "forward",
+          "section": "Go to",
+          "mac": "Cmd+]",
+          "win": "Alt+Right"
+        },
+        {
+          "id": "new-playlist",
+          "label": "New playlist",
+          "icon": "plus",
+          "section": "Go to",
+          "mac": "Cmd+N",
+          "win": "Ctrl+N"
+        }
+      ],
+      "ring": [
+        "play",
+        "next",
+        "louder",
+        "shuffle",
+        "like",
+        "repeat",
+        "quieter",
+        "previous"
+      ]
+    },
+    {
+      "id": "teams",
+      "name": "Microsoft Teams",
+      "version": 1,
+      "icon": "people",
+      "description": "Mute, camera, screen sharing, raise hand and leave in meetings, and getting around Teams.",
+      "apps": {
+        "mac": [
+          "com.microsoft.teams2",
+          "com.microsoft.teams"
+        ],
+        "win": [
+          "ms-teams.exe",
+          "teams.exe"
+        ]
+      },
+      "shortcuts": [
+        {
+          "id": "mute",
+          "label": "Mute / unmute",
+          "icon": "mic",
+          "section": "Meetings",
+          "mac": "Cmd+Shift+M",
+          "win": "Ctrl+Shift+M"
+        },
+        {
+          "id": "video",
+          "label": "Camera on / off",
+          "icon": "camera",
+          "section": "Meetings",
+          "mac": "Cmd+Shift+O",
+          "win": "Ctrl+Shift+O"
+        },
+        {
+          "id": "share",
+          "label": "Share screen",
+          "icon": "share",
+          "section": "Meetings",
+          "mac": "Cmd+Shift+E",
+          "win": "Ctrl+Shift+E"
+        },
+        {
+          "id": "hand",
+          "label": "Raise / lower hand",
+          "icon": "hand",
+          "section": "Meetings",
+          "mac": "Cmd+Shift+K",
+          "win": "Ctrl+Shift+K"
+        },
+        {
+          "id": "blur",
+          "label": "Blur background",
+          "icon": "person",
+          "section": "Meetings",
+          "mac": "Cmd+Shift+P",
+          "win": "Ctrl+Shift+P"
+        },
+        {
+          "id": "leave",
+          "label": "Leave meeting",
+          "icon": "leave",
+          "section": "Meetings",
+          "mac": "Cmd+Shift+H",
+          "win": "Ctrl+Shift+H"
+        },
+        {
+          "id": "full-screen",
+          "label": "Full screen",
+          "icon": "maximize",
+          "section": "Meetings",
+          "mac": "Cmd+Shift+F",
+          "win": "Ctrl+Shift+F"
+        },
+        {
+          "id": "accept-video",
+          "label": "Answer with video",
+          "icon": "camera",
+          "section": "Calls",
+          "mac": "Cmd+Shift+A",
+          "win": "Ctrl+Shift+A"
+        },
+        {
+          "id": "accept-audio",
+          "label": "Answer with audio",
+          "icon": "mic",
+          "section": "Calls",
+          "mac": "Cmd+Shift+S",
+          "win": "Ctrl+Shift+S"
+        },
+        {
+          "id": "decline",
+          "label": "Decline call",
+          "icon": "close",
+          "section": "Calls",
+          "mac": "Cmd+Shift+D",
+          "win": "Ctrl+Shift+D"
+        },
+        {
+          "id": "activity",
+          "label": "Activity",
+          "icon": "bolt",
+          "section": "Go to",
+          "mac": "Cmd+1",
+          "win": "Ctrl+1"
+        },
+        {
+          "id": "chat",
+          "label": "Chat",
+          "icon": "chat",
+          "section": "Go to",
+          "mac": "Cmd+2",
+          "win": "Ctrl+2"
+        },
+        {
+          "id": "teams",
+          "label": "Teams",
+          "icon": "people",
+          "section": "Go to",
+          "mac": "Cmd+3",
+          "win": "Ctrl+3"
+        },
+        {
+          "id": "calendar",
+          "label": "Calendar",
+          "icon": "history",
+          "section": "Go to",
+          "mac": "Cmd+4",
+          "win": "Ctrl+4"
+        },
+        {
+          "id": "calls",
+          "label": "Calls",
+          "icon": "mic",
+          "section": "Go to",
+          "mac": "Cmd+5",
+          "win": "Ctrl+5"
+        },
+        {
+          "id": "go-to",
+          "label": "Go to a chat or channel",
+          "icon": "search",
+          "section": "Go to",
+          "mac": "Cmd+G",
+          "win": "Ctrl+G"
+        },
+        {
+          "id": "new-chat",
+          "label": "New chat",
+          "icon": "plus",
+          "section": "Messages",
+          "mac": "Cmd+N",
+          "win": "Ctrl+N"
+        },
+        {
+          "id": "search",
+          "label": "Search",
+          "icon": "search",
+          "section": "Messages",
+          "mac": "Cmd+E",
+          "win": "Ctrl+E"
+        },
+        {
+          "id": "compose",
+          "label": "Expand the message box",
+          "icon": "text",
+          "section": "Messages",
+          "mac": "Cmd+Shift+X",
+          "win": "Ctrl+Shift+X"
+        },
+        {
+          "id": "settings",
+          "label": "Settings",
+          "icon": "sliders",
+          "section": "Messages",
+          "mac": "Cmd+,",
+          "win": "Ctrl+,"
+        }
+      ],
+      "ring": [
+        "mute",
+        "video",
+        "share",
+        {
+          "group": "Go to",
+          "icon": "apps",
+          "items": [
+            "activity",
+            "chat",
+            "teams",
+            "calendar",
+            "calls"
+          ]
+        },
+        "leave",
+        {
+          "group": "Calls",
+          "icon": "mic",
+          "items": [
+            "accept-video",
+            "accept-audio",
+            "decline"
+          ]
+        },
+        "blur",
+        "hand"
+      ]
+    },
+    {
+      "id": "word",
+      "name": "Microsoft Word",
+      "version": 1,
+      "icon": "text",
+      "description": "Formatting, headings, lists, alignment, comments and review in Word.",
+      "apps": {
+        "mac": [
+          "com.microsoft.Word"
+        ],
+        "win": [
+          "winword.exe"
+        ]
+      },
+      "shortcuts": [
+        {
+          "id": "bold",
+          "label": "Bold",
+          "icon": "bold",
+          "section": "Format",
+          "mac": "Cmd+B",
+          "win": "Ctrl+B"
+        },
+        {
+          "id": "italic",
+          "label": "Italic",
+          "icon": "italic",
+          "section": "Format",
+          "mac": "Cmd+I",
+          "win": "Ctrl+I"
+        },
+        {
+          "id": "underline",
+          "label": "Underline",
+          "icon": "underline",
+          "section": "Format",
+          "mac": "Cmd+U",
+          "win": "Ctrl+U"
+        },
+        {
+          "id": "bigger",
+          "label": "Bigger text",
+          "icon": "zoomIn",
+          "section": "Format",
+          "mac": "Cmd+Shift+.",
+          "win": "Ctrl+Shift+."
+        },
+        {
+          "id": "smaller",
+          "label": "Smaller text",
+          "icon": "zoomOut",
+          "section": "Format",
+          "mac": "Cmd+Shift+,",
+          "win": "Ctrl+Shift+,"
+        },
+        {
+          "id": "copy-format",
+          "label": "Copy formatting",
+          "icon": "brush",
+          "section": "Format",
+          "mac": "Cmd+Shift+C",
+          "win": "Ctrl+Shift+C"
+        },
+        {
+          "id": "paste-format",
+          "label": "Paste formatting",
+          "icon": "brush",
+          "section": "Format",
+          "mac": "Cmd+Shift+V",
+          "win": "Ctrl+Shift+V"
+        },
+        {
+          "id": "heading-1",
+          "label": "Heading 1",
+          "icon": "heading",
+          "section": "Styles",
+          "mac": "Alt+Cmd+1",
+          "win": "Ctrl+Alt+1"
+        },
+        {
+          "id": "heading-2",
+          "label": "Heading 2",
+          "icon": "heading",
+          "section": "Styles",
+          "mac": "Alt+Cmd+2",
+          "win": "Ctrl+Alt+2"
+        },
+        {
+          "id": "heading-3",
+          "label": "Heading 3",
+          "icon": "heading",
+          "section": "Styles",
+          "mac": "Alt+Cmd+3",
+          "win": "Ctrl+Alt+3"
+        },
+        {
+          "id": "normal",
+          "label": "Normal text",
+          "icon": "text",
+          "section": "Styles",
+          "mac": "Cmd+Shift+N",
+          "win": "Ctrl+Shift+N"
+        },
+        {
+          "id": "bullets",
+          "label": "Bulleted list",
+          "icon": "list",
+          "section": "Styles",
+          "mac": "Cmd+Shift+L",
+          "win": "Ctrl+Shift+L"
+        },
+        {
+          "id": "left",
+          "label": "Align left",
+          "icon": "alignLeft",
+          "section": "Paragraph",
+          "mac": "Cmd+L",
+          "win": "Ctrl+L"
+        },
+        {
+          "id": "center",
+          "label": "Center",
+          "icon": "alignCenter",
+          "section": "Paragraph",
+          "mac": "Cmd+E",
+          "win": "Ctrl+E"
+        },
+        {
+          "id": "right",
+          "label": "Align right",
+          "icon": "alignRight",
+          "section": "Paragraph",
+          "mac": "Cmd+R",
+          "win": "Ctrl+R"
+        },
+        {
+          "id": "justify",
+          "label": "Justify",
+          "icon": "alignLeft",
+          "section": "Paragraph",
+          "mac": "Cmd+J",
+          "win": "Ctrl+J"
+        },
+        {
+          "id": "link",
+          "label": "Insert link",
+          "icon": "link",
+          "section": "Insert",
+          "mac": "Cmd+K",
+          "win": "Ctrl+K"
+        },
+        {
+          "id": "comment",
+          "label": "New comment",
+          "icon": "chat",
+          "section": "Insert",
+          "mac": "Alt+Cmd+A",
+          "win": "Ctrl+Alt+M"
+        },
+        {
+          "id": "page-break",
+          "label": "Page break",
+          "icon": "plus",
+          "section": "Insert",
+          "mac": "Cmd+Return",
+          "win": "Ctrl+Return"
+        },
+        {
+          "id": "find",
+          "label": "Find",
+          "icon": "search",
+          "section": "Review",
+          "mac": "Cmd+F",
+          "win": "Ctrl+F"
+        },
+        {
+          "id": "replace",
+          "label": "Find and replace",
+          "icon": "search",
+          "section": "Review",
+          "mac": "Cmd+Shift+H",
+          "win": "Ctrl+H"
+        },
+        {
+          "id": "track",
+          "label": "Track changes",
+          "icon": "pen",
+          "section": "Review",
+          "mac": "Cmd+Shift+E",
+          "win": "Ctrl+Shift+E"
+        },
+        {
+          "id": "words",
+          "label": "Word count",
+          "icon": "info",
+          "section": "Review",
+          "mac": "Cmd+Shift+G",
+          "win": "Ctrl+Shift+G"
+        },
+        {
+          "id": "spelling",
+          "label": "Spelling and grammar",
+          "icon": "check",
+          "section": "Review",
+          "mac": "Alt+Cmd+L",
+          "win": "F7"
+        },
+        {
+          "id": "save",
+          "label": "Save",
+          "icon": "check",
+          "section": "Document",
+          "mac": "Cmd+S",
+          "win": "Ctrl+S"
+        },
+        {
+          "id": "print",
+          "label": "Print",
+          "icon": "print",
+          "section": "Document",
+          "mac": "Cmd+P",
+          "win": "Ctrl+P"
+        }
+      ],
+      "ring": [
+        "bold",
+        "italic",
+        "underline",
+        {
+          "group": "Headings",
+          "icon": "heading",
+          "items": [
+            "heading-1",
+            "heading-2",
+            "heading-3",
+            "normal"
+          ]
+        },
+        "bullets",
+        {
+          "group": "Align",
+          "icon": "alignCenter",
+          "items": [
+            "left",
+            "center",
+            "right",
+            "justify"
+          ]
+        },
+        "comment",
+        "link"
+      ]
+    },
+    {
       "id": "zoom",
       "name": "Zoom",
       "version": 1,
